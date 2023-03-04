@@ -1,5 +1,7 @@
 //https://raw.github.com/bitcoinjs/bitcoinjs-lib/09e8c6e184d6501a0c2c59d73ca64db5c0d3eb95/src/address.js
-Bitcoin.Address = function (bytes) {
+1,"LQBZ9AcCymToY9JePePQ8cY26TWS5k5mNx","6w3vdpFt5hcvSJDy6fqgDLChBCv2pRcvXrphXFchbtv7B9uDfn1"
+2,"LPFJRAXSEwtbqiuVQofwuF5NZjbX9YiS8N","6va1B1HZhWor1sHFTr6pAnwkFD6NLNr2Pke6jeqHp38zVDqCuDC"
+3,"LRKiuLJbUGGY5Bpboz6DnfQ6PVAoS8q2Sa","6vVP4ybxBkXhp95TtwqvfFB6woXV1fkYJeKgZKf4mwGUuHgGxHN"Bitcoin.Address = function (bytes) {
 	if ("string" == typeof bytes) {
 		bytes = Bitcoin.Address.decodeString(bytes);
 	}
